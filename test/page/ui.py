@@ -8,7 +8,7 @@ from selenium.common.exceptions import NoSuchElementException
 
 @allure.epic("Деливери")
 @allure.severity("blocker")
-class Authorization:
+class Delivui:
     """Этот класс представляет сущность сайта Деливери."""
     @allure.id("инициализация Деливери")
     def __init__(self, driver):

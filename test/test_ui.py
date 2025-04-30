@@ -1,7 +1,7 @@
 import pytest
 import allure
 from selenium import webdriver
-from page.ui import Authorization
+from page.ui import Delivui
 from selenium.webdriver.common.by import By
 
 
@@ -40,7 +40,7 @@ def test_choice_rest(driver):
     with allure.step("неявное ожидание"):
         driver.implicitly_wait(2)
     with allure.step("класс"):
-        delivery = Authorization(driver)
+        delivery = Delivui(driver)
     with allure.step("выбор адреса"):
         delivery.choice_add()
     with allure.step("выбор ресторана"):
@@ -65,7 +65,7 @@ def test_choice_prod(driver):
     with allure.step("неявное ожидание"):
         driver.implicitly_wait(2)
     with allure.step("класс"):
-        delivery = Authorization(driver)
+        delivery = Delivui(driver)
     with allure.step("выбор адреса"):
         delivery.choice_add()
     with allure.step("выбор ресторана"):
@@ -89,7 +89,7 @@ def test_add_to_cart(driver):
     with allure.step("неявное ожидание"):
         driver.implicitly_wait(2)
     with allure.step("класс"):
-        delivery = Authorization(driver)
+        delivery = Delivui(driver)
     with allure.step("выбор адреса"):
         delivery.choice_add()
     with allure.step("выбор ресторана"):
@@ -116,7 +116,7 @@ def test_add_more_to_cart(driver):
     with allure.step("неявное ожидание"):
         driver.implicitly_wait(2)
     with allure.step("класс"):
-        delivery = Authorization(driver)
+        delivery = Delivui(driver)
     with allure.step("выбор адреса"):
         delivery.choice_add()
     with allure.step("выбор ресторана"):
@@ -146,7 +146,7 @@ def test_delete_to_cart(driver):
     with allure.step("неявное ожидание"):
         driver.implicitly_wait(2)
     with allure.step("класс"):
-        delivery = Authorization(driver)
+        delivery = Delivui(driver)
     with allure.step("выбор адреса"):
         delivery.choice_add()
     with allure.step("выбор ресторана"):

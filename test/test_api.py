@@ -8,9 +8,8 @@ ratata = Delivery("https://market-delivery.yandex.ru/")
 
 @pytest.fixture()
 @allure.title("Добавление в корзину товара")
-@allure.description(
-    "Вызывает функцию, в которой валидный Request на методе Post."
-    )
+@allure.description("Вызывает функцию,"
+    "в которой валидный Request на методе Post.")
 @allure.feature("Добавление в корзину товара")
 @allure.severity("blocker")
 def test_val_add_to_cart():

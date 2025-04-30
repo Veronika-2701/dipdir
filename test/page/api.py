@@ -10,7 +10,7 @@ class Delivery:
     def __init__(self, base_url) -> None:
         """Эта функция инициализирует base_url и токен"""
         self.base_url = base_url
-        self.token = 'y0__xC-o82NCBix9BwgoqaE9xJ1Tcj7XI9x9eHMBceDtzWvNhnNgA'
+        self.token = 'токен'
 
     @allure.id("Request Get-запроса")
     def req_get(self, req_type="GET", url="", data={}):

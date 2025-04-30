@@ -1,4 +1,4 @@
-# Финальный проект: https://skypro24talevnina.yonote.ru/share/97c92824-332c-4e9c-9da0-07f3ec4c424c
+# **Финальный проект:** https://skypro24talevnina.yonote.ru/share/97c92824-332c-4e9c-9da0-07f3ec4c424c
 
 # **Задача проекта:**
 ## Провести тестирование сайта Деливери.

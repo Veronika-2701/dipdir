@@ -1,0 +1,5 @@
+test/__pycache__
+test/page/__pycache__
+.vscode
+.pytest_cache
+allure-result
